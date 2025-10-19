@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS testdb;
+
+USE testdb;
+
+CREATE TABLE IF NOT EXISTS compteur (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    valeur INT NOT NULL
+);
+
+INSERT INTO compteur (valeur) VALUES (0);
